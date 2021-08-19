@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url("./image/mathsBg.jpg");
+   
+    background-repeat: no-repeat;
+    
+}
+
+
+/* navigation bar */
+
+nav{
+    font-size: 2rem;
+    background-color: #455D7A;
+    color:white;
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0px;
+    padding:0;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+nav ul li{
+    cursor:pointer;
+    padding:1rem;
+    flex: auto;
+    text-align: center;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color:#6F1E51;
+    color:white;
+}
+nav ul li :active{
+    background-color:#6F1E51;
+    color:white;
+}
+
+@media all and (max-width:500px){
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav ul li{
+        text-align: center;
+    }
+}
+
+/* content */
+
+.container{
+    margin:20vh auto;
+    background-color: #ffffff;
+    max-width:70vw;
+    padding:2rem;
+    border:2px solid red;
+  
+}
+.content{
+    text-align:center;
+    margin:2rem;
+    font-size:1.5rem;
+    font-weight: bold;
+    
+
+}
+
+.input{
+
+    font-size: 15px;
+    margin-right: 6px;
+    border:2px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+button{
+    margin-top: 1rem;
+    background-color: #1289A7;
+    padding:0.5rem;
+    border-radius:0.5rem;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-size:medium;
+    appearance: center;
+    
+}
+button:hover{
+    background-color:#009432;
+}
+
+
+
+.output {
+    border:2px solid green;
+    min-height:3rem;
+  color:#303952;
+    max-width:20rem;
+    margin: 2rem auto;
+    text-align: center;
+    padding:2px;
+}
+
+
+
+/* footer */
+
+
+.footer{
+    background-color: #B53471;
+    margin-top:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .footer a{
+        height:60px;
+        width:60px;
+        background-color:#f5f6fa;
+        border-radius: 50px;
+        text-align: center;
+        margin:10px;
+        line-height: 80px;
+    }
+    .footer i{
+        font-size: 40px;
+    
+    }
+    
+    .question{
+        background-color: lightgray;
+        margin-top: 12px;
+        text-align: start;
+    }
+
+    .question p{
+        color: #c44569;
+    }
+.answer-input{
+  padding: 4px;
+ border:2px solid blue
+    }
